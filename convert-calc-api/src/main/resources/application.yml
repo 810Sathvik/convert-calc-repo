@@ -1,0 +1,14 @@
+
+server.port: 8084
+
+
+logging:
+  file: C:/udd001/convert-calc-api.log
+  pattern:
+      console: " "
+      file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    com.mmi: TRACE
+    org.springframework.session: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
